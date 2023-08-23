@@ -1,0 +1,76 @@
+Spider Crisis - User Manual
+
+JELTech Industries
+Lexi Han, Ethan Andrew, Jayden Xue
+
+Monday, June 12, 2023
+
+Preface
+--------
+The purpose of this game is to educate and help users overcome their fear of arachnophobia, or fear of spiders.
+
+Although this game is targeted towards 9-13 year olds, users of any age may use this application and find some worth out of it.
+
+While fake spiders and cobwebs are fun and spooky, it is natural to feel varying degrees of fear or anxiety when faced with an eight-legged arachnid scurrying across your room. For those with arachnophobia, the mere idea of spiders is a truly despicable concept, and is not a pleasant thought. 
+
+For those with arachnophobia, we hope that this game makes a positive impact on your path to overcoming this fear.  
+
+Main File
+---------
+The main class file is named Driver.java, which can be found in src/Main/Driver.java.
+
+Control Schemes
+---------------
+When the learning stage is initially entered, the user is greeted with the first screen, where they must click the screen to progress through the dialogue.
+
+After progressing through a bit of dialogue, the user is then greeted with the first bit of gameplay where they must move the little boy (Evan) around the screen with WASD.
+
+The user’s job is to move towards the spider located in the button right corner. Once near the spider, the user will be prompted to press “C” to check for the spider. From there, the gameplay changes to a first person view.
+
+In this view, the user must click on the spider with the mouse for Michael to catch it.
+
+Next, in the testing stage, the user starts by going through some more dialogue with the mouse, before being taken to a choice selection where they must press the correct button.
+
+Once the correct button is pressed, the user goes through some more dialogue before being taken to a maze. In this maze, the user uses the WASD keys to guide the head of Evan through the maze to the top exit.
+
+After getting through the maze, the user reaches the living room where they can use the WASD keys to move around, and the “C” key to check certain areas when the prompt pops up.
+
+If the user checks the wrong area, the “R” key is used to return to the living room.
+
+Upon finding the right area, the user catches the spider in a similar fashion to how the learning stage was, before returning to the bedroom by pressing the “R” key.
+
+Finally, in the action stage, Evan wakes up in a nightmare and must be moved around the house using the WASD keys.
+
+The user can then move him to the bottom corner of the bedroom, where they can press the “E” key to exit.
+
+The gameplay is similar to that of the testing stage, except the user must traverse an entire nightmare version of the house where failing to catch a spider results in the loss of health, eventually resulting in a game over. Eventually, the user will find a key that will allow them to exit the house, ending the nightmare.
+
+Scoring System - Learning Stage
+-------------------------------
+- Fails an attempt to catch the spider: -100 points
+- Successfully catches the spider: +500 points
+- Your score cannot fall below 200 points. 
+
+Scoring System - Testing Stage
+------------------------------
+- The incorrect button is pressed on the points screen: -30 points
+- The correct button is pressed on the points screen: +100 points
+- Every 30 times the program detects a key was pressed in the maze, points are subtracted: -5 points
+- The user completes the maze: +150 points
+- The user checks an area without the spider: -30 points
+- Fails an attempt to catch the spider: -100 points
+- Successfully catches the spider: +500 points
+
+Scoring System - Action Stage
+-----------------------------
+- Fails an attempt to catch a spider: -50 points
+- The key is obtained: +600 points
+- Maximum score of 1000 points.
+
+Prominent Features / Possible Bugs
+----------------------------------
+- The intro screen can be skipped by simply clicking the screen anywhere.
+- Occasionally, the user might not be able to move Evan when they should be able to. In this case, the user can simply click out of the window and back into it, as this should fix the 
+- Users cannot progress to further levels unless all earlier levels are complete. That is, the Testing Stage is only available once the Learning Stage is complete, and the Action Stage is only available if both Testing and Learning Stages are complete.
+- Dynamic gameplay spanning different genres.
+- Extensive research on the subject of arachnophobia.
